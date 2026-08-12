@@ -11,7 +11,7 @@ const ShareButton = ({ cardRef, builderName = "Builder", builderId = "#HH-GOA-20
     const idStr = builderId ? builderId.trim() : "#HH-GOA-2026";
     const cleanId = idStr.replace(/[^a-zA-Z0-9-]/g, "");
 
-    const tweetText = `🌴 Built my Hacker Goa House Builder Card!\n\n👤 ${nameStr}\n🪪 Builder ID: ${idStr}\n\nExcited to build, ship, and connect with amazing builders in Goa. 🚀\n\nCreate your own Builder Card:\nhttps://hhgoa-own-id-card.vercel.app\n\n#FrameInGoa #HHGoa2026`;
+    const tweetText = `🌴 Built my Hacker Goa House Builder Card!\n\n👤 ${nameStr}\n🪪 Builder ID: ${idStr}\n\nExcited to build, ship, and connect with amazing builders in Goa. 🚀\n\nCreate your own Builder Card:\nhttps://hhgoa2026-three.vercel.app/\n\n#FrameInGoa #HHGoa2026`;
     const twitterIntentUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(tweetText)}`;
 
     // ✅ Open X SYNCHRONOUSLY during the user-gesture frame.
